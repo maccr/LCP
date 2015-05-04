@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LCP Tests</title>
+<link rel="stylesheet" type="text/css" href="shared_assets/css/lcp_core.min.css" />
+</head>
+
+<body>
+
+<section id="preloader">
+
+    <h1>LCP Tests</h1>
+
+    <div class="gooPreloader">
+        <div class="goo-dots">
+            <div class="goo-dot"></div>
+            <div class="goo-dot"></div>
+            <div class="goo-dot"></div>
+            <div class="goo-dot"></div>
+        </div>
+        <div class="goo-dot"> </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
+
+    <div class="loadStatus"></div>
+
+</section>
+  
+<script src="shared_assets/js/lcp_core.min.js"></script> 
+<script>
+console.log('Page loaded')
+    $(function () {
+
+
+        //setTimeout(function() { Initialisation.init(); }, 2000);
+
+
+    });
+</script>
+</body>
+</html>

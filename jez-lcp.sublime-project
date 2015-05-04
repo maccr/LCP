@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"config.codekit"
+			],
+			"folder_exclude_patterns":
+			[
+				".codekit-cache"
+			],
+			"path": "."
+		}
+	]
+}

@@ -1,0 +1,14 @@
+/*  CODEKIT - used to combine the following files  */
+
+/*
+ * Core CSS required for styling the start test page.
+ *
+ * Additionally CSS styles are subsequently loaded via the 
+ * start page by referencing the JSON test file.
+ *
+ */
+
+@import "normalize";
+@import "gooeyPreloader";
+@import "core";
+@import "modal";

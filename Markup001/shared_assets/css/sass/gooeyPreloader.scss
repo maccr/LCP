@@ -1,0 +1,58 @@
+/**
+ * Gooey Preloader.
+ */
+
+//colors
+$color_0: #f78e42;
+$color_1: #5af158;
+$color_2: #03a9f4;
+$color_3: #ffc107;
+$color_4: #ff5722;
+
+.gooPreloader {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.goo-dot {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: $color_0;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin-top: -40px;
+	margin-left: -40px;
+}
+.goo-dots {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	.goo-dot {
+		position: absolute;
+		background: $color_1;
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
+		margin-top: -20px;
+		border-radius: 50%;
+		&:nth-child(1) {
+			background: $color_2;
+			transform: scale(0.8, 0.8);
+		}
+		&:nth-child(2) {
+			background: $color_1;
+			transform: scale(0.85, 0.85);
+		}
+		&:nth-child(3) {
+			background: $color_3;
+			transform: scale(0.9, 0.9);
+		}
+		&:nth-child(4) {
+			background: $color_4;
+			transform: scale(0.7, 0.7);
+		}
+	}
+}

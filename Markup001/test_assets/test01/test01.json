@@ -1,0 +1,102 @@
+{  
+   "core":{
+      "assets": [
+         {
+            "type": "js",
+            "files": []
+         },
+         {
+            "type": "css",
+            "files": []
+          },
+          {
+            "type": "images",
+            "files": [
+               { "path": "http://lazydrawing.com/wp-content/uploads/2014/05/Light-Color-Abstract-Background-Vector-Material-1.jpg" },
+               { "path": "http://www.pycomall.com/images/P1/Circle_Style_Background.jpg" },
+               { "path": "http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/01/orange-geometric-high-definition-background.jpg" },
+               { "path": "http://www.hdwallpapersinn.com/wp-content/uploads/2014/09/CUBEN-12-Space-8-iPad3-SimonCPage.jpeg" },
+               { "path": "http://fc08.deviantart.net/fs37/f/2008/242/6/b/Leafy_Background_by_skyestarweaver.png" },
+               { "path": "http://cdn2.qvectors.net/downloads/images/vector/backgrounds/444-texture-vector-background-full.png" },
+               { "path": "http://wallpaperscraft.com/image/96870/200x300.jpg" }
+            ]
+         },
+         {
+            "type": "audio",
+            "files": []
+         },
+         {
+            "type": "html",
+            "files": [
+               {
+                  "name": "introduction01.html",
+                  "cat": "section",
+                  "id": "intro"
+               },
+               {
+                  "name": "practice01.html",
+                  "cat": "section",
+                  "id": "practice"
+               },
+               {
+                  "name": "questions.html",
+                  "cat": "section",
+                  "id": "questions"
+               },
+               {
+                  "name": "navigation.html",
+                  "cat": "asset",
+                  "id": "nav"
+               }
+            ]
+         }
+      ]
+   },
+   "test":{  
+      "name": "Sample Test 1",
+      "version": "00001",
+      "assets": [
+          {
+            "type": "images",
+            "files": []
+         },
+         {
+            "type": "audio",
+            "files": []
+         },
+         {
+            "type": "html",
+            "files": [
+               {
+                  "name": "q01.html"
+               },
+               {
+                  "name": "q02.html"
+               },
+               {
+                  "name": "q03.html"
+               }
+            ]
+         }
+      ],
+      "questions": [  
+         {  
+            "questionID":"Q1",
+            "questionType":"input",
+            "text": "Q-One"
+         },
+         {  
+            "questionID":"Q2",
+            "questionType":"input",
+            "text": "Q-Two"
+
+         },
+         {  
+            "questionID":"Q3",
+            "questionType":"dragdrop",
+            "text": "Q-Three"
+
+         }
+      ]
+   }
+}

@@ -1,0 +1,31 @@
+{  
+   "test":{  
+      "testName":"Sample Test 1",
+      "totalQuestions":3,
+      "questions":[  
+         {  
+            "questionID":"Q1",
+            "questionType":"input",
+            "correctResponse":"cat",
+            "marks":1,
+            "text": "Q-One"
+         },
+         {  
+            "questionID":"Q2",
+            "questionType":"input",
+            "correctResponse":"dog",
+            "marks":1,
+            "text": "Q-Two"
+
+         },
+         {  
+            "questionID":"Q3",
+            "questionType":"dragdrop",
+            "correctResponse":"1=2,3=1,1=3",
+            "marks":3,
+            "text": "Q-Three"
+
+         }
+      ]
+   }
+}

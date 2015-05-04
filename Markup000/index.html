@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/app/customEvent.js"></script>
+<script type="text/javascript" src="js/app/postify.js"></script>
+<script type="text/javascript" src="js/app/appConfig.js"></script>
+<script type="text/javascript" src="js/app/dataManager.js"></script>
+<script type="text/javascript" src="js/app/pageManager.js"></script>
+</head>
+
+<body>
+
+<div>
+<h1>This Is The Nav Area</h1>
+</div>
+
+<div id="content">
+
+	<!-- THIS IS THE CONTENT AREA WHICH WILL HOLD ALL THE QUESTON DATA WHEN LOADED -->
+	
+    <div id="introduction">
+    	<div>Introduction Content</div>
+    	<h2>This Is The Content Area Which Will be Refreshed</h2>
+    	<p></p>
+    	<input name="button" type="button" disabled="disabled" value="Start Test" />
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+
+$(function () {
+
+	// Load the data set
+	// Becuase we are running locally it will load the testData.json file 
+	promise = $.when(
+		DataManager.loadJSON("/testData")
+	);
+
+	// Data set has load
+	promise.done(function () {
+
+		// Now the data set is load we can build the nav as we now know how many questions etc
+		// Data will be stored in a root object called RootObject !!
+
+		// You access it like...
+		var _rootObject = DataManager.getRootObject();
+
+		// You query the RootObject as if you were querying the JSON file
+		var _questions = _rootObject.test.totalQuestions;
+
+		$('#introduction p').html(_questions + ' questions have been loaded!')
+
+		// Enable the button
+		$('input[type=button]').removeAttr("disabled")
+	});
+
+	// If the data failed to load you would catch it here
+	promise.fail(function() {
+		alert('oops, data failed to load');
+	});
+	
+	// Attach a click event to load the first question
+	$('#introduction input[type=button]').unbind().click(function(){
+		PageManager.loadQuestion(1);
+	});
+	
+});
+
+</script>
+
+</body>
+</html>

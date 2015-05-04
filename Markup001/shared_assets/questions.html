@@ -1,0 +1,19 @@
+<section id="questions">
+	{{navigation}}
+
+	<div class="questions">
+		{{questions}}
+	</div>
+
+</section>
+<script type="text/javascript">
+
+	// Execute commands only once when the content has been loaded
+	PageManager.onPageInit.subscribe(function () {
+
+console.log('in ques');
+	    $('#questions').css('color', 'grey');
+
+	});
+
+</script>

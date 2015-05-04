@@ -1,0 +1,35 @@
+<div id="Q3">
+
+<h4> This is the last question :( </h4>
+
+<p>
+	Now we go back and reload previous questions.
+</p>
+<p>
+We use the same method <i>loadQuestion</i> which checks if the question has been previously loaded. if it has it just reshows the DIV otherwise it loads the content.
+</p>
+
+<input name="button" type="button" value="ReLoad Question 1" />
+
+<script type="text/javascript">
+
+	// Because we are loading content dynamically we want to avoid any
+	// duplicate initialisation of docement.ready events.
+	// Therefore rather than use the standard docuement.ready we attach
+	// all functions to be ran when the document is loaded to an onPageInit event
+
+	// Execute commands only once when the content has been loaded
+	PageManager.onPageInit.subscribe(function () {
+
+	    // Attach a click event to load the next question
+		$('#Q3 input[type=button]').unbind().click(function(e){
+
+			// Load the next question
+			PageManager.loadQuestion(1);
+		});
+
+	});
+
+</script>
+
+</div>

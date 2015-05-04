@@ -1,0 +1,41 @@
+<div id="Q1">
+
+<h4> This Is Question 1 </h4>
+
+<p>
+	A simple way of testing any data (Drag Drop etc) remains set when navigating between questions is to enter some text or resize the textbox box below. When you return to Question 1 the textbox will  be as you left it.
+</p>
+<p>
+	All we are doing is hiding the question DIV's so nothing is really getting reset
+</p>
+
+<textarea rows="4" cols="50">
+The is question 1. 
+</textarea>
+
+<p>
+	<input name="button" type="button" value="Load Question 2" /> <-- Load the next question
+</p>
+
+<script type="text/javascript">
+
+	// Because we are loading content dynamically we want to avoid any
+	// duplicate initialisation of docement.ready events.
+	// Therefore rather than use the standard docuement.ready we attach
+	// all functions to be ran when the document is loaded to an onPageInit event
+
+	// Execute commands only once when the content has been loaded
+	PageManager.onPageInit.subscribe(function () {
+
+	    // Attach a click event to load the next question
+		$('#Q1 input[type=button]').unbind().click(function(e){
+
+			// Load the next question
+			PageManager.loadQuestion(2);
+		});
+
+	});
+
+</script>
+
+</div>
