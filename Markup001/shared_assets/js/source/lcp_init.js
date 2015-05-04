@@ -44,7 +44,34 @@ $(function () {
                         // load asset file based on type
                         switch(core.assets[assetIndex].type){
                             case 'audio':
+                                console.log('Still need to do something for:' + core.assets[assetIndex].files[core.fileIndex].name);
+                                DataManager.setCoreIndexes({ assetIndex: assetIndex, fileIndex: ++fileIndex });
+                                loadCoreAssets();
+                            break;
                             case 'css':
+                                setLoadingStatus('core-css', 'Core CSS', core.fileIndex+1, core.assets[assetIndex].files.length);
+                                DataManager.loadAsset('/shared_assets/css/' + core.assets[assetIndex].files[core.fileIndex].name, 'text')
+                                    .done(function(result){
+
+                                        // append result to the header
+                                        $("head").append("<style>" + result + "</style>");
+
+                                        // load next asset
+                                        DataManager.setCoreIndexes({ assetIndex: assetIndex, fileIndex: ++fileIndex });
+                                        loadCoreAssets();
+                                    })
+                                    .fail(function(){
+
+                                        // stop everything and notify user
+                                        var message = {
+                                            header: "Asset Load Failure",
+                                            body: "<div style='width:400px;'>Unable to load core style sheet (" + core.assets[assetIndex].files[core.fileIndex].name + ").</div>",
+                                            footer: "<button class='close'>OK</button>",
+                                            modal: true
+                                        }
+                                        Modal.showModal(message);
+                                    })
+                                break;
                             case 'js':
                                 console.log('Still need to do something for:' + core.assets[assetIndex].files[core.fileIndex].name);
                                 DataManager.setCoreIndexes({ assetIndex: assetIndex, fileIndex: ++fileIndex });
@@ -64,7 +91,7 @@ $(function () {
                                         // stop everything and notify user
                                         var message = {
                                             header: "Image Load Failure",
-                                            body: "<div style='width:400px;'>Unable to load core image ( " + this.src + ").</div>",
+                                            body: "<div style='width:400px;'>Unable to load core image (" + this.src + ").</div>",
                                             footer: "<button class='close'>OK</button>",
                                             modal: true
                                         }
@@ -95,7 +122,7 @@ $(function () {
                                         // stop everything and notify user
                                         var message = {
                                             header: "Asset Load Failure",
-                                            body: "<div style='width:400px;'>Unable to load core asset ( " + fcore.assets[assetIndex].files[core.fileIndex].name + ").</div>",
+                                            body: "<div style='width:400px;'>Unable to load core asset (" + core.assets[assetIndex].files[core.fileIndex].name + ").</div>",
                                             footer: "<button class='close'>OK</button>",
                                             modal: true
                                         }
@@ -113,12 +140,18 @@ $(function () {
             } else {
 
                 console.log('All Core Assets Loaded');
+                processCoreAssets();
             }     
         }
 
 
         function processCoreAssets (){
-            $('section ')
+
+            $('section code.navigation').each(function(){
+                $(this).replaceWith($('#assetNav').html());
+            });
+
+            
         }
 
         ///

@@ -15,5 +15,6 @@
 // @codekit-append "customEvent.js";
 // @codekit-append "lcp_appConfig.js";
 // @codekit-append "lcp_dataManager.js";
+// @codekit-append "lcp_pageManager.js";
 // @codekit-append "lcp_modal.js";
 // @codekit-append "lcp_init.js";

@@ -11,24 +11,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/shared_assets\/css\/lcp_core.min.css": {
+	"\/shared_assets\/css\/lcp_base.min.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/shared_assets\/css\/lcp_core.min.css",
+		"inputAbbreviatedPath": "\/shared_assets\/css\/lcp_base.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/shared_assets\/css\/sass\/core.scss": {
+	"\/shared_assets\/css\/sass\/base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/core.scss",
-		"outputAbbreviatedPath": "\/shared_assets\/css\/core.min.css",
+		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/base.scss",
+		"outputAbbreviatedPath": "\/shared_assets\/css\/base.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -52,18 +52,34 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/shared_assets\/css\/sass\/lcp_core.scss": {
+	"\/shared_assets\/css\/sass\/lcp_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/lcp_base.scss",
+		"outputAbbreviatedPath": "\/shared_assets\/css\/lcp_base.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/shared_assets\/css\/sass\/lcp_core.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/lcp_core.scss",
 		"outputAbbreviatedPath": "\/shared_assets\/css\/lcp_core.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -82,6 +98,22 @@
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/shared_assets\/css\/sass\/navigation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/navigation.scss",
+		"outputAbbreviatedPath": "\/shared_assets\/css\/navigation.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/shared_assets\/css\/sass\/normalize.scss": {
@@ -222,7 +254,7 @@
 	"\/shared_assets\/js\/source\/lcp_pageManager.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_pageManager.js",
 		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_pageManager.min.js",
 		"outputPathIsOutsideProject": 0,

@@ -1,0 +1,22 @@
+/*  CODEKIT - used to combine the following files  */
+/*
+ *
+ * Supplementary CSS  - styling required for main pages, navigation, questions etc
+ *
+ */
+.nav {
+  width: 800px;
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: beige; }
+  .nav div {
+    display: inline-block; }
+  .nav .leftSection {
+    float: left;
+    width: 350px; }
+  .nav .rightSection {
+    float: right;
+    width: 200px; }
+  .nav .controls {
+    margin: 0 20px; }

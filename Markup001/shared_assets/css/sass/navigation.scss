@@ -1,0 +1,24 @@
+//colors
+$beige: beige;
+
+.nav {
+	width: 800px;
+	clear: both;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: $beige;
+	div {
+		display: inline-block;
+	}
+	.leftSection {
+		float: left;
+		width: 350px;
+	}
+	.rightSection {
+		float: right;
+		width: 200px;
+	}
+	.controls {
+		margin: 0 20px;
+	}
+}
