@@ -18,7 +18,13 @@ $(function () {
                 .fail(function(){
 
                     // stop everything and notify user
-                    PageManager.systemNotification('failed to initialise, need to do something here ???');
+                    var message = {
+                        header: "Initialisation Failure",
+                        body: "<div style='width:400px;'>Unable to initialise " + test + ".json</div>",
+                        footer: "<button class='close'>OK</button>",
+                        modal: true
+                    }
+                    Modal.showModal(message);
                 });
         }
 
@@ -56,7 +62,13 @@ $(function () {
                                     error : function (e) { 
 
                                         // stop everything and notify user
-                                        PageManager.systemNotification('failed to load core image (' + this.src +').');
+                                        var message = {
+                                            header: "Image Load Failure",
+                                            body: "<div style='width:400px;'>Unable to load core image ( " + this.src + ").</div>",
+                                            footer: "<button class='close'>OK</button>",
+                                            modal: true
+                                        }
+                                        Modal.showModal(message);
                                     }
                                 });
                             break;
@@ -81,7 +93,13 @@ $(function () {
                                     .fail(function(){
 
                                         // stop everything and notify user
-                                        PageManager.systemNotification('failed to load core asset (' + fcore.assets[assetIndex].files[core.fileIndex].name +').');
+                                        var message = {
+                                            header: "Asset Load Failure",
+                                            body: "<div style='width:400px;'>Unable to load core asset ( " + fcore.assets[assetIndex].files[core.fileIndex].name + ").</div>",
+                                            footer: "<button class='close'>OK</button>",
+                                            modal: true
+                                        }
+                                        Modal.showModal(message);
                                     })
                             break;
                         }

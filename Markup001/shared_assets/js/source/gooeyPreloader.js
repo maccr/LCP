@@ -10,7 +10,12 @@ $(function() {
             $indicatorDots = $(".goo-dot");
         TweenMax.to($gooDot, 0.6, {
             scale: 0.5,
+            width: '80px',
+            marginLeft: '-40px',
             ease: Back.easeOut,
+            onStart: function() {
+                $gooDot.children('span').hide();
+            },
             onComplete: function() {
                 var filter = "url(#goo)";
                 $(".gooPreloader").css({

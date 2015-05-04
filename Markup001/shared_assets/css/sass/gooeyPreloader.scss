@@ -25,6 +25,17 @@ $color_4: #ff5722;
 	height: 80px;
 	margin-top: -40px;
 	margin-left: -40px;
+
+	width: 160px;
+  	border-radius: 150px;
+  	margin-left: -80px;
+  	text-align: center;
+  	span {
+		font-size: 1.8em;
+		color: #ffffff;
+		text-transform: uppercase;
+		line-height: 80px;
+	}
 }
 .goo-dots {
 	position: absolute;

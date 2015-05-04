@@ -118,7 +118,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/customEvent.js": {
 		"fileType": 64,
@@ -129,7 +129,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/gooeyPreloader.js": {
 		"fileType": 64,
@@ -140,7 +140,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/jquery.cacheimage.js": {
 		"fileType": 64,
@@ -151,7 +151,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/jquery.min.js": {
 		"fileType": 64,
@@ -162,7 +162,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/lcp_appConfig.js": {
 		"fileType": 64,
@@ -173,7 +173,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/lcp_core.js": {
 		"fileType": 64,
@@ -184,7 +184,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/lcp_dataManager.js": {
 		"fileType": 64,
@@ -195,7 +195,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/lcp_init.js": {
 		"fileType": 64,
@@ -206,7 +206,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/lcp_modal.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_modal.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_modal.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/lcp_pageManager.js": {
 		"fileType": 64,
@@ -217,7 +228,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/js\/source\/TweenMax.js": {
 		"fileType": 64,
@@ -228,7 +239,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/shared_assets\/navigation.html": {
 		"fileType": 8192,
@@ -447,7 +458,7 @@
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathEnabled": 0,
 	"javascriptAutoOutputPathFilenamePattern": "*.min.js",
 	"javascriptAutoOutputPathRelativePath": "..\/",
 	"javascriptAutoOutputPathReplace1": "",
@@ -455,7 +466,7 @@
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -912,8 +923,8 @@
 	"markdownProcessHTML": 0,
 	"markdownRandomFootnoteNumbers": 0,
 	"markdownUseCompatibilityMode": 0,
-	"reloadFileURLs": 1,
-	"sassAutoOutputPathEnabled": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 0,
 	"sassAutoOutputPathFilenamePattern": "*.min.css",
 	"sassAutoOutputPathRelativePath": "..\/",
 	"sassAutoOutputPathReplace1": "sass",

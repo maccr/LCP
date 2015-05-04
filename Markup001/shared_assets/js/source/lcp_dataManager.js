@@ -68,8 +68,13 @@ $(function () {
             });
 
             request.fail(function (result) {
-                console.error("error requesting ("+ method +") " + url);
-                PageManager.systemNotification("error requesting ("+ method +") " + url);
+                var message = {
+                    header: "Procesing Request Error",
+                    body: "<div style='width:400px;'>error requesting (" + method + ") " + url + "</div>",
+                    footer: "<button class='close'>OK</button>",
+                    modal: true
+                }
+                Modal.showModal(message);
             });
 
             return request;

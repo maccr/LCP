@@ -1,5 +1,13 @@
-
-
-.loadStatus div div {
-	display: inline-block;
+.loadStatus {
+	margin: 0 auto;
+	width: 200px;
+	.counter {
+		float: right;
+	}
+	> div {
+		margin-top: 10px;
+	}
+	div div {
+		display: inline-block;
+	}
 }
