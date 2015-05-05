@@ -1,10 +1,12 @@
 /*  CODEKIT - used to combine the following files  */
 
 /*
- * Base CSS  - the mimimum styling required for the start test page.
+ * Base CSS  - the mimimum styling required for the application.
  *
  * Additionally CSS styles are subsequently loaded via the 
  * start page by referencing the JSON test file.
+ *
+ * see also lcp_sup.css
  *
  */
 
@@ -12,3 +14,4 @@
 @import "gooeyPreloader";
 @import "base";
 @import "modal";
+@import "lean-slider";

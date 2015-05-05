@@ -4,7 +4,9 @@ $(function () {
     function dataManager() {
 
         // root data object - gets populated by loading data from the server
-        var rootObject = {};
+        var rootObject = {
+            assetIndexes: {}
+        };
 
         function buildUrl(path, isPost) {
             if (path.startsWith("/")) {
@@ -101,8 +103,12 @@ $(function () {
 
             // get/set props
             "getRootObject": function () { return rootObject; },
+            //"getCoreObject": function () { return rootObject.core; },
+            //"setCoreIndexes": function (coreAssetIndexes) { $.extend(rootObject.core, coreAssetIndexes); },
+            "getAssetObject": function() { return rootObject.assetIndexes; },
+            "setAssetIndexes": function (assetIndexes) { $.extend(rootObject.assetIndexes, assetIndexes); },
             "getCoreObject": function () { return rootObject.core; },
-            "setCoreIndexes": function (coreAssetIndexes) { $.extend(rootObject.core, coreAssetIndexes); }
+            "getTestObject": function () { return rootObject.test; },
         });
     }
 

@@ -1,17 +1,27 @@
 <section id="questions">
+
+	<!-- Navigation Place Holder -->
 	<code class='navigation'></code>
 
-	<div class="questions">
-		{{questions}}
-	</div>
+
+	<p>
+		Dummy buttons >>> <a href="#" class="questionControllerPrev">Prev Question</a> <a href="#" class="questionControllerNext">Next Question</a>
+	</p>
+	<p>
+	Navigation will obviously be done via the nav bar. I just haven't written that yet!!
+	</p>
+
+
+	<div id="questionSlider" class="slider"></div>
 
 </section>
+
 <script type="text/javascript">
 
 	// Execute commands only once when the content has been loaded
 	PageManager.onPageInit.subscribe(function () {
 
-console.log('in ques');
+		console.log('in ques');
 	    $('#questions').css('color', 'grey');
 
 	});

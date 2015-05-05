@@ -1,9 +1,11 @@
 /*  CODEKIT - used to combine the following files  */
 /*
- * Base CSS  - the mimimum styling required for the start test page.
+ * Base CSS  - the mimimum styling required for the application.
  *
  * Additionally CSS styles are subsequently loaded via the 
  * start page by referencing the JSON test file.
+ *
+ * see also lcp_sup.css
  *
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -502,6 +504,19 @@ th {
   display: inline-block;
 }
 
+.slider {
+  width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+#assetNav {
+  display: none;
+}
+
 /*
  * Modal 
  */
@@ -569,4 +584,38 @@ th {
   border-top: medium none;
   padding: 12px;
   text-align: right;
+}
+
+/*
+ * Lean Slider v1.0.1
+ * http://dev7studios.com/lean-slider
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+.lean-slider {
+  position: relative;
+  *zoom: 1;
+}
+
+.lean-slider:before,
+.lean-slider:after {
+  content: " ";
+  display: table;
+}
+
+.lean-slider:after {
+  clear: both;
+}
+
+.lean-slider-slide {
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  display: none;
+}
+
+.lean-slider-slide.current {
+  display: block;
 }

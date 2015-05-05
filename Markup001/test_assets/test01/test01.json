@@ -1,9 +1,12 @@
 {  
    "core":{
+      "rootpath" : "shared_assets",
       "assets": [
          {
             "type": "js",
-            "files": []
+            "files": [
+               { "name": "lcp_sup.min.js" }
+            ]
          },
          {
             "type": "css",
@@ -13,8 +16,7 @@
           },
           {
             "type": "images",
-            "files": [],
-            "filesX": [
+            "files": [
                { "path": "http://lazydrawing.com/wp-content/uploads/2014/05/Light-Color-Abstract-Background-Vector-Material-1.jpg" },
                { "path": "http://www.pycomall.com/images/P1/Circle_Style_Background.jpg" },
                { "path": "http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/01/orange-geometric-high-definition-background.jpg" },
@@ -58,6 +60,7 @@
    "test":{  
       "name": "Sample Test 1",
       "version": "00001",
+      "rootpath" : "test_assets/test01",
       "assets": [
           {
             "type": "images",

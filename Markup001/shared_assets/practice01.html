@@ -1,19 +1,28 @@
 <section id="practice">
+
+	<!-- Navigation Place Holder -->
 	<code class='navigation'></code>
+
 
 	<div>
 		Practice Questions Years 1-2
 	</div>
 
+	<p>
+		<a href="#" class="mainControllerNext">Next Screen</a>
+	</p>
+
+
+	<script type="text/javascript">
+
+		// Execute commands only once when the content has been loaded
+		PageManager.onPageInit.subscribe(function () {
+
+			console.log('in pract');
+		    $('#practice').css('color', 'blue');
+
+		});
+
+	</script>
+
 </section>
-<script type="text/javascript">
-
-	// Execute commands only once when the content has been loaded
-	PageManager.onPageInit.subscribe(function () {
-
-console.log('in pract');
-	    $('#practice').css('color', 'blue');
-
-	});
-
-</script>

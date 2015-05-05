@@ -20,6 +20,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/shared_assets\/css\/lcp_sup.min.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/css\/lcp_sup.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/shared_assets\/css\/sass\/base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -68,15 +77,31 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/shared_assets\/css\/sass\/lcp_core.scss": {
+	"\/shared_assets\/css\/sass\/lcp_sup.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/lcp_core.scss",
-		"outputAbbreviatedPath": "\/shared_assets\/css\/lcp_core.min.css",
+		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/lcp_sup.scss",
+		"outputAbbreviatedPath": "\/shared_assets\/css\/lcp_sup.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/shared_assets\/css\/sass\/lean-slider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/css\/sass\/lean-slider.scss",
+		"outputAbbreviatedPath": "\/shared_assets\/css\/lean-slider.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -152,12 +177,56 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/shared_assets\/js\/lcp_sup.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/lcp_sup.min.js",
+		"outputAbbreviatedPath": "\/shared_assets\/lcp_sup.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/appConfig.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/appConfig.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/appConfig.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/appInit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/appInit.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/appInit.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/shared_assets\/js\/source\/customEvent.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/customEvent.js",
 		"outputAbbreviatedPath": "\/shared_assets\/js\/customEvent.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/dataManager.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/dataManager.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/dataManager.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -196,17 +265,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/shared_assets\/js\/source\/lcp_appConfig.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_appConfig.js",
-		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_appConfig.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
 	"\/shared_assets\/js\/source\/lcp_core.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -218,45 +276,45 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/shared_assets\/js\/source\/lcp_dataManager.js": {
+	"\/shared_assets\/js\/source\/lcp_sup.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_dataManager.js",
-		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_dataManager.min.js",
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_sup.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_sup.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/shared_assets\/js\/source\/lcp_init.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_init.js",
-		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_init.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/shared_assets\/js\/source\/lcp_modal.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_modal.js",
-		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_modal.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/shared_assets\/js\/source\/lcp_pageManager.js": {
+	"\/shared_assets\/js\/source\/lean-slider.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lcp_pageManager.js",
-		"outputAbbreviatedPath": "\/shared_assets\/js\/lcp_pageManager.min.js",
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/lean-slider.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/lean-slider.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/modal.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/modal.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/modal.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/shared_assets\/js\/source\/pageManager.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/shared_assets\/js\/source\/pageManager.js",
+		"outputAbbreviatedPath": "\/shared_assets\/js\/pageManager.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -296,6 +354,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/shared_assets\/questions.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/test_assets\/test01\/q01.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test_assets\/test01\/q01.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/test_assets\/test01\/q02.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test_assets\/test01\/q02.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/test_assets\/test01\/q03.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test_assets\/test01\/q03.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
